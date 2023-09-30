@@ -2,5 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="darkBlue">#1B5153</color>
+    <color name="darkBlue">#DAEDEC</color>
+    <color name="sunnyside">#0F4B44</color>
 </resources>

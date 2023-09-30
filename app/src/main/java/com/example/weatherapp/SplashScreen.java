@@ -18,7 +18,7 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         Window window = this.getWindow();
-        window.setStatusBarColor(this.getResources().getColor(R.color.darkBlue));
+        window.setStatusBarColor(this.getResources().getColor(R.color.sunnyside));
         setContentView(R.layout.activity_splash_screen);
         name = findViewById(R.id.appname);
         lottie = findViewById(R.id.lottie);
