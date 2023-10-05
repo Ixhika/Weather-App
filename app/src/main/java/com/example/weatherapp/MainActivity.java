@@ -1,87 +1,70 @@
 package com.example.weatherapp;
 
-import androidx.core.view.accessibility.AccessibilityWindowInfoCompat;
-
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.telecom.Call;
-import android.text.TextUtils;
+
 import android.view.View;
 import android.view.Window;
+import android.widget.Button;
+import android.widget.EditText;
 
-import com.example.weatherapp.Models.WeatherData;
-import com.example.weatherapp.databinding.ActivityMainBinding;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
-import retrofit2.Callback;
-
+import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-//d37e2fc136297f98e697fc5f72f3cb07
 public class MainActivity extends AppCompatActivity {
-
-    ActivityMainBinding binding;
-
+    EditText place;
+    Button b1;
+    String url = "https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}";
+    String apikey = "2eab68ce4b9d034d358655b7c0654366";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding=ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
+        setContentView(R.layout.activity_main);
         Window window = this.getWindow();
         window.setStatusBarColor(this.getResources().getColor(R.color.darkBlue));
 
-        SimpleDateFormat format = new SimpleDateFormat("dd MMMM yyyy");
-        String currentdate = format.format(new Date());
-
-        binding.date.setText(currentdate);
-        binding.searchButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(TextUtils.isEmpty(binding.searchcity.getText().toString())){
-                    binding.searchcity.setError("Enter City Name ");
-                    return;
-                }
-                fetchWeather("hi");
-            }
-        });
+        place = findViewById(R.id.searchcity);
+        b1 = findViewById(R.id.searchButton);
 
     }
-    void fetchWeather(String cityname){
-        Retrofit retrofit = new Retrofit.Builder().baseUrl("https://api.openweathermap.org/")
+
+    public void getWeather(View view){
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("https://api.openweathermap.org/data/2.5/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
-        InterfaceApi interfaceApi = retrofit.create(InterfaceApi.class);
+        weatherapi myapi = retrofit.create(weatherapi.class);
+        Call<Root> call = myapi.getweather(place.getText().toString(),apikey);
 
-        Call<WeatherData> call = interfaceApi.getData(cityname, "d37e2fc136297f98e697fc5f72f3cb07", "metric");
-        call.enqueue(new Callback<WeatherData>() {
+        call.enqueue(new Callback<Root>() {
             @Override
-            public void onResponse(Call<WeatherData> call, Response<WeatherData> response) {
-                if (response.isSuccessful()) {
-                    // Handle a successful response here, such as updating UI with weather data
-                    WeatherData weatherData = response.body();
-                    if (weatherData != null) {
-                        // Update your UI with weather data here
+            public void onResponse(Call<Root> call, Response<Root> response) {
+                if(response.isSuccessful()){
+                    Root root = response.body();
+                    if(root !=null){
+                        System.out.println("City :"+ root.getName());
+                        System.out.println("City :"+ root.getMain().getTemp());
                     }
-                } else {
-                    // Handle an unsuccessful response here, such as showing an error message
+                    else {
+                        System.out.println("WeatherResponse is null.");
+                    }
                 }
+                else {
+                    // Handle the error
+                    System.out.println("Error: " + response.message());
+                }
+
             }
 
             @Override
-            public void onFailure(Call<WeatherData> call, Throwable t) {
-                // Handle network failure here, such as showing an error message
+            public void onFailure(Call<Root> call, Throwable t) {
+
             }
         });
-
-
     }
 }

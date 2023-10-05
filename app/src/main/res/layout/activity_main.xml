@@ -421,22 +421,23 @@
 
         <Button
             android:id="@+id/searchButton"
-            android:layout_width="71dp"
+            android:layout_width="69dp"
             android:layout_height="52dp"
-            android:onClick="onSearchButtonClick"
+            android:backgroundTint="@color/sunnyside"
+            android:onClick="getWeather"
             android:text="Go"
             android:textSize="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.952"
+            app:layout_constraintHorizontal_bias="0.953"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.113" />
+            app:layout_constraintVertical_bias="0.117" />
 
         <EditText
             android:id="@+id/searchcity"
-            android:layout_width="322dp"
-            android:layout_height="60dp"
+            android:layout_width="293dp"
+            android:layout_height="55dp"
             android:background="@drawable/search_view_shape"
             android:drawableLeft="@drawable/baseline_search_24"
             android:ems="10"
