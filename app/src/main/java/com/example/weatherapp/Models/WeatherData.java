@@ -1,7 +1,15 @@
-package com.example.weatherapp; 
-import java.util.ArrayList;
+package com.example.weatherapp.Models;
+
+import com.example.weatherapp.Clouds;
+import com.example.weatherapp.Coord;
+import com.example.weatherapp.Main;
+import com.example.weatherapp.Sys;
+import com.example.weatherapp.Weather;
+import com.example.weatherapp.Wind;
+
 import java.util.List;
-public class Root{
+
+public class WeatherData {
     public Coord coord;
     public List<Weather> weather;
     public String base;
@@ -16,7 +24,7 @@ public class Root{
     public String name;
     public int cod;
 
-    public Root(Coord coord, List<Weather> weather, String base, Main main, int visibility, Wind wind, Clouds clouds, int dt, Sys sys, int timezone, int id, String name, int cod) {
+    public WeatherData(Coord coord, List<Weather> weather, String base, Main main, int visibility, Wind wind, Clouds clouds, int dt, Sys sys, int timezone, int id, String name, int cod) {
         this.coord = coord;
         this.weather = weather;
         this.base = base;

@@ -353,7 +353,7 @@
         <TextView
             android:id="@+id/textView9"
             android:layout_width="111dp"
-            android:layout_height="24dp"
+            android:layout_height="31dp"
             android:layout_marginStart="5dp"
             android:layout_marginBottom="41dp"
             android:gravity="center"
@@ -365,17 +365,16 @@
 
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintHorizontal_bias="0.522"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.59" />
+            app:layout_constraintVertical_bias="0.572" />
 
         <TextView
-            android:id="@+id/textView10"
+            android:id="@+id/date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="163dp"
-            android:layout_marginTop="8dp"
             android:layout_marginEnd="190dp"
             android:layout_marginBottom="12dp"
             android:gravity="center"
@@ -387,8 +386,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView9"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.995" />
 
         <TextView
             android:id="@+id/textView2"
@@ -419,28 +418,43 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.341" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
 
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="71dp"
+            android:layout_height="52dp"
+            android:onClick="onSearchButtonClick"
+            android:text="Go"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.952"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.113" />
 
         <EditText
-            android:id="@+id/editTextNumber"
+            android:id="@+id/searchcity"
             android:layout_width="322dp"
             android:layout_height="60dp"
             android:background="@drawable/search_view_shape"
             android:drawableLeft="@drawable/baseline_search_24"
             android:ems="10"
             android:hint="Enter the place"
-            android:textColorHint="@color/black"
             android:inputType="text"
             android:paddingLeft="12dp"
+            android:textColorHint="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintHorizontal_bias="0.146"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.105" />
+            app:layout_constraintVertical_bias="0.114" />
 
-        <TextView
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
             android:id="@+id/textView"
             android:layout_width="140dp"
             android:layout_height="37dp"
