@@ -32,7 +32,7 @@
             android:id="@+id/textView4"
             android:layout_width="121dp"
             android:layout_height="32dp"
-            android:text="TextView"
+            android:text="Sunny"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -111,6 +111,7 @@
 
                     <TextView
 
+                        android:id="@+id/humid"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center|clip_vertical"
@@ -155,6 +156,7 @@
 
                     <TextView
 
+                        android:id="@+id/wspeed"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center|clip_vertical"
@@ -197,6 +199,7 @@
 
                     <TextView
 
+                        android:id="@+id/cond"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center|clip_vertical"
@@ -241,6 +244,7 @@
 
                     <TextView
 
+                        android:id="@+id/sunRise"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
@@ -285,6 +289,7 @@
 
                     <TextView
 
+                        android:id="@+id/sunSet"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center|clip_vertical"
@@ -357,7 +362,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginBottom="41dp"
             android:gravity="center"
-            android:text="Day"
+            android:text="Thurday"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             android:textSize="21dp"
@@ -378,8 +383,9 @@
             android:layout_marginEnd="190dp"
             android:layout_marginBottom="12dp"
             android:gravity="center"
-            android:text="DD MM YYYY"
+            android:text="5 October 2023"
             android:textColor="@color/black"
+            android:textStyle="bold"
             android:textColorHint="@color/black"
             android:textSize="18dp"
             app:layout_constraintBottom_toTopOf="@+id/frameLayout"
@@ -393,7 +399,7 @@
             android:id="@+id/textView2"
             android:layout_width="144dp"
             android:layout_height="42dp"
-            android:text="text View"
+            android:text="Today"
             android:textColor="@color/black"
             android:textSize="28dp"
             android:textStyle="bold"
@@ -419,38 +425,36 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.341" />
 
-        <Button
-            android:id="@+id/searchButton"
-            android:layout_width="69dp"
-            android:layout_height="52dp"
-            android:backgroundTint="@color/sunnyside"
-            android:onClick="getWeather"
-            android:text="Go"
-            android:textSize="15dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.953"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.117" />
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="321dp"
+            android:layout_height="51dp"
+            android:background="@color/white"
 
-        <EditText
-            android:id="@+id/searchcity"
-            android:layout_width="293dp"
-            android:layout_height="55dp"
-            android:background="@drawable/search_view_shape"
-            android:drawableLeft="@drawable/baseline_search_24"
-            android:ems="10"
-            android:hint="Enter the place"
-            android:inputType="text"
-            android:paddingLeft="12dp"
-            android:textColorHint="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.146"
+            app:layout_constraintHorizontal_bias="0.489"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.114" />
+            app:layout_constraintVertical_bias="0.112" />
+
+        <!--        <EditText-->
+<!--            android:id="@+id/searchcity"-->
+<!--            android:layout_width="357dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:background="@drawable/search_view_shape"-->
+<!--            android:drawableLeft="@drawable/baseline_search_24"-->
+<!--            android:ems="10"-->
+<!--            android:hint="Enter the place"-->
+<!--            android:inputType="text"-->
+<!--            android:paddingLeft="12dp"-->
+<!--            android:textColorHint="@color/black"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.462"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.113" />-->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -470,6 +474,7 @@
             app:layout_constraintVertical_bias="0.208" />
 
         <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView"
             android:layout_width="150dp"
             android:layout_height="150dp"
             app:layout_constraintBottom_toBottomOf="parent"
