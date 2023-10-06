@@ -126,26 +126,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void changeImageAnimations(String conditons) {
-        if(conditons.equals("Haze")){
+        if(conditons.equals("Haze") || conditons.equals("Clouds")){
             binding.getRoot().setBackgroundResource(R.drawable.img_2);
             binding.lottieAnimationView.setAnimation(R.raw.cloud);
         }
-        if(conditons.equals("Clouds")){
-            binding.getRoot().setBackgroundResource(R.drawable.cloudy);
-            binding.lottieAnimationView.setAnimation(R.raw.rain);
-        }
-        if(conditons.equals("Rain")){
-            binding.getRoot().setBackgroundResource(R.drawable.img_1);
-            binding.lottieAnimationView.setAnimation(R.raw.rain);
-        }
-        if(conditons.equals("Sunny")){
+        if(conditons.equals("Sunny") || conditons.equals("Clear")){
             binding.getRoot().setBackgroundResource(R.drawable.img);
             binding.lottieAnimationView.setAnimation(R.raw.sun);
         }
-        if(conditons.equals("Snowy")){
+        if(conditons.equals("Rainy") || conditons.equals("Mist")){
+            binding.getRoot().setBackgroundResource(R.drawable.img_1);
+            binding.lottieAnimationView.setAnimation(R.raw.rain);
+        }
+        if(conditons.equals("Light Snow") || conditons.equals("Heavy Snow")){
             binding.getRoot().setBackgroundResource(R.drawable.img_3);
             binding.lottieAnimationView.setAnimation(R.raw.snow);
         }
+
         binding.lottieAnimationView.playAnimation();
     }
 
@@ -159,34 +156,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
-
-//    public void getWeather(View view){
-//        Retrofit retrofit = new Retrofit.Builder()
-//                .baseUrl("https://api.openweathermap.org/data/2.5/")
-//                .addConverterFactory(GsonConverterFactory.create())
-//                .build();
-//
-//        weatherapi myapi = retrofit.create(weatherapi.class);
-//        Call<Root> call = myapi.getweather(place.getText().toString().trim(),apikey);
-//
-//        call.enqueue(new Callback<Root>() {
-//            @Override
-//            public void onResponse(Call<Root> call, Response<Root> response) {
-//                if(response.isSuccessful()) {
-//                    Root root = response.body();
-//                    Main main = root.getMain();
-//                    Double temp = main.getTemp();
-//                    Double temperature = temp - 273.15;
-//                    System.out.println(temperature);
-//                    tmp.setText(String.valueOf(temperature));
-//                }
-//
-//            }
-//
-//            @Override
-//            public void onFailure(Call<Root> call, Throwable t) {
-//                Toast.makeText(MainActivity.this, t.getMessage(), Toast.LENGTH_SHORT).show();
-//            }
-//        });
-//    }
 
