@@ -1,0 +1,6 @@
+com.example.weatherapp.test.app-annotation-experimental-1.3.0-0 C:\Users\Ishika Saha\.gradle\caches\transforms-3\20a644b62baf785bb02e4625e75762e3\transformed\annotation-experimental-1.3.0\res
+com.example.weatherapp.test.app-core-1.5.0-1 C:\Users\Ishika Saha\.gradle\caches\transforms-3\59914e26a5efd9f7534a4d821b8e3a6e\transformed\core-1.5.0\res
+com.example.weatherapp.test.app-androidTest-2 C:\Users\Ishika Saha\Desktop\CodingWorldGithub\Weather-App\app\build\generated\res\resValues\androidTest\debug
+com.example.weatherapp.test.app-mergeDebugAndroidTestResources-3 C:\Users\Ishika Saha\Desktop\CodingWorldGithub\Weather-App\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.weatherapp.test.app-mergeDebugAndroidTestResources-4 C:\Users\Ishika Saha\Desktop\CodingWorldGithub\Weather-App\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.weatherapp.test.app-merged_res-5 C:\Users\Ishika Saha\Desktop\CodingWorldGithub\Weather-App\app\build\intermediates\merged_res\debugAndroidTest

@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\raw_animation_ln39zcf9.json.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\raw\\animation_ln39zcf9.json"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\drawable_img_1.png.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\drawable\\img_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\drawable_cloudy.jpeg.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\drawable\\cloudy.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\drawable_bgshape.xml.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\drawable\\bgshape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\drawable_splashscreenbackground.jpeg.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\drawable\\splashscreenbackground.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\drawable_wind.png.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\drawable\\wind.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\drawable_thermometer.png.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\drawable\\thermometer.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\raw_rain.json.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\raw\\rain.json"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\drawable_backgroundimg.jpeg.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\drawable\\backgroundimg.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\drawable_img_3.png.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\drawable\\img_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\drawable_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\drawable\\baseline_search_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\drawable_wave.png.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\drawable\\wave.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\drawable_baseline_location_on_24.xml.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\drawable\\baseline_location_on_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\raw_cloud.json.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\raw\\cloud.json"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\drawable_sunrise.png.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\drawable\\sunrise.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\drawable_img_2.png.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\drawable\\img_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\drawable_img.png.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\drawable\\img.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\drawable_search_view_shape.xml.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\drawable\\search_view_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\raw_sun.json.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\raw\\sun.json"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\drawable_climate.png.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\drawable\\climate.png"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\raw_snow.json.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\raw\\snow.json"
+    },
+    {
+        "merged": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-merged_res-29:\\drawable_sunset.png.flat",
+        "source": "C:\\Users\\Ishika Saha\\.gradle\\daemon\\8.0\\com.example.weatherapp-main-31:\\drawable\\sunset.png"
+    },
+    {
+        "merged": "com.example.weatherapp-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "com.example.weatherapp-main-31:/layout/activity_main.xml"
+    }
+]
